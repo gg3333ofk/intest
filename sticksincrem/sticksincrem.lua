@@ -49,7 +49,7 @@ sections.MainSection1:Toggle({
 	    getgenv().state = value
 	    while getgenv().state and task.wait(1) do
 	        for i = 0, kolvo do
-                game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PickUp"):FireServer("Stick")
+                game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("PickUp"):FireServer("DiamondStick")
             end
 	    end
 	end,
